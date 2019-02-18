@@ -5,9 +5,10 @@ import org.junit.Test;
 import rocks.zipcode.io.Item;
 import rocks.zipcode.io.ItemSorter;
 import rocks.zipcode.io.comparators.IdComparator;
-import rocks.zipcode.io.comparators.IdComparator;
+import rocks.zipcode.io.comparators.Comparator;
 
-import java.util.Comparator;
+import java.util.Arrays;
+
 
 /**
  * @author leon on 30/01/2019.
@@ -67,4 +68,5 @@ public class SortByIdTest {
         // then
         Assert.assertArrayEquals(expected, actual);
     }
+
 }

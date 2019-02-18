@@ -4,8 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import rocks.zipcode.io.Item;
 import rocks.zipcode.io.comparators.PriceComparator;
-
-import java.util.Comparator;
+import rocks.zipcode.io.comparators.Comparator;
 
 /**
  * @author leon on 30/01/2019.
