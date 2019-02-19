@@ -3,7 +3,8 @@ package rocks.zipcode.io.comparators.namecomparator;
 import org.junit.Assert;
 import org.junit.Test;
 import rocks.zipcode.io.comparators.NameComparator;
-import rocks.zipcode.io.comparators.Comparator;
+
+import java.util.Comparator;
 
 /**
  * @author leon on 30/01/2019.
