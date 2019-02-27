@@ -2,11 +2,9 @@ package rocks.zipcode.io;
 
 import java.util.*;
 
-/**
- * @author leon on 30/01/2019.
- */
+
 public class ItemSorter {
-    Item[] items;
+    private Item[] items;
     public ItemSorter(Item[] items) {
         this.items = items;
     }
